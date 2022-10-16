@@ -37,7 +37,7 @@ maven { url 'https://jitpack.io' }
 ```
 
 ## How to Use
-```xml
+```python
 Jump(
   toDirection = 150 // bounce to direction
 ) {
@@ -45,6 +45,14 @@ Jump(
 }
 ```
 > toDirection is required. How much do you want the jump animation
+
+## Jump Bounce Animation Type
+```javascript
+BounceType.HIGH_BOUNCE
+BounceType.MEDIUM_BOUNCE
+BounceType.LOW_BOUNCE
+BounceType.NO_BOUNCE
+```
 
 ## Find this library useful? 🤩
 Support it by joining [stargazers](https://github.com/tfaki/jump/stargazers) for this repository. ⭐
